@@ -2,9 +2,9 @@
 
 import { siteConfig } from "@/config/site";
 import useScreenSize from "@/hooks/use-screen-size";
-import type {  Song } from "@/types";
+import type { Song } from "@/types";
 import { useIsClient } from "@uidotdev/usehooks";
-import { Mail, Twitter, Linkedin } from "lucide-react";
+import { Mail, Twitter, Linkedin, Github } from "lucide-react";
 import { AnimatePresence, motion, Variants } from "motion/react";
 import { useTheme } from "next-themes";
 import dynamic from "next/dynamic";
@@ -117,9 +117,9 @@ const slideInBottom: Variants = {
 };
 
 const socialLinks = [
+  { icon: Github, label: "Github", link: `${siteConfig.github}/portfolio` },
   { icon: Mail, label: "Email", link: `mailto:${siteConfig.email}` },
   { icon: Twitter, label: "Twitter", link: siteConfig.twitter },
-  { icon: Linkedin, label: "LinkedIn", link: siteConfig.linkedin },
 ];
 
 const MainScreen: React.FC<{
@@ -264,25 +264,25 @@ const HomePage = () => {
     () =>
       resolvedTheme === "dark"
         ? [
-            "#BEBB53",
-            "#1C2938",
-            "#172795",
-            "#DE5D4E",
-            "#C13567",
-            "#10BC89",
-            "#3AD47B",
-            "#463199",
-          ]
+          "#BEBB53",
+          "#1C2938",
+          "#172795",
+          "#DE5D4E",
+          "#C13567",
+          "#10BC89",
+          "#3AD47B",
+          "#463199",
+        ]
         : [
-            "#d0c87a",
-            "#88a6c9",
-            "#8aa1ff",
-            "#ff8a78",
-            "#d56b96",
-            "#2acfa4",
-            "#60e09a",
-            "#7e6bf2",
-          ],
+          "#d0c87a",
+          "#88a6c9",
+          "#8aa1ff",
+          "#ff8a78",
+          "#d56b96",
+          "#2acfa4",
+          "#60e09a",
+          "#7e6bf2",
+        ],
     [resolvedTheme],
   );
 
