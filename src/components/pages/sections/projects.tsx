@@ -17,7 +17,7 @@ const Projects = () => {
       description:
         "A personal portfolio website showcasing projects, skills, and contact information.",
       tags: ["Portfolio", "Fullstack", "Personal"],
-      github: "https://github.com/NotStark/portfolio",
+      github: "https://github.com/NotLuna/portfolio",
       image: "/projects/portfolio-screenshot.png",
       live: env.NEXT_PUBLIC_APP_URL,
       date: "Sep, 2025",
@@ -27,7 +27,7 @@ const Projects = () => {
       title: "Telegram Bot",
       description: "A telegram group management bot built with Pyrogram.",
       tags: ["Bot", "Management", "Telegram"],
-      github: "https://github.com/Notstark/TelegramBot",
+      github: "https://github.com/NotLuna/TelegramBot",
       image: "/projects/telegrambot-screenshot.png",
       live: "https://t.me/HyugaGuardianBot",
       date: "Oct, 2024",
