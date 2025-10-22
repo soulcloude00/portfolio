@@ -152,7 +152,7 @@ const About = () => {
                     Poorvaja
                   </h3>
                   <p className="text-foreground/60 mt-1 font-mono text-sm">
-                    @poorvaja
+                    @luna
                   </p>
 
                   {/* Status badges */}
