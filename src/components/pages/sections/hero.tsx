@@ -73,7 +73,7 @@ const Hero = () => {
               <span className="text-foreground">Hey, I&apos;m </span>
               <span className="relative text-[#8cc2ff] italic">
                 <Typewriter
-                  text={["Siddharth", "Stark"]}
+                  text={["poorvaja"]}
                   speed={85}
                   waitTime={1500}
                   deleteSpeed={40}

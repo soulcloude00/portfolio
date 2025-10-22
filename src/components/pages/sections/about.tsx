@@ -149,10 +149,10 @@ const About = () => {
                     />
                   </div>
                   <h3 className="font-incognito text-2xl font-semibold">
-                    Siddharth
+                    Poorvaja
                   </h3>
                   <p className="text-foreground/60 mt-1 font-mono text-sm">
-                    @stark
+                    @poorvaja
                   </p>
 
                   {/* Status badges */}

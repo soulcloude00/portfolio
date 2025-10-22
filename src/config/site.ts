@@ -3,7 +3,7 @@ import env from "./env";
 
 
 export const siteConfig = {
-    title: "Siddharth Sharma",
+    title: "Poorvaja",
     description: "my personal portfolio website showcasing projects, skills, and other cool stuffs",
     url: env.NEXT_PUBLIC_APP_URL,
     twitter: "https://x.com/NotStark101",
