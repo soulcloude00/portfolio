@@ -1,9 +1,9 @@
 
-# Stark's Portfolio
+# Luna's Portfolio
 
 ![Portfolio Screenshot](public/projects/portfolio-screenshot.png)
 
-A modern, interactive **[developer portfolio](https://next-portfolio-stark.vercel.app)** built with **Next.js 15**, **Prisma**, and **shadcn/ui**
+A modern, interactive **[developer portfolio](https://next-portfolio-luna.vercel.app)** built with **Next.js 15**, **Prisma**, and **shadcn/ui**
 
 > This portfolio showcases my work, my projects, and my personality
 
@@ -40,7 +40,7 @@ A modern, interactive **[developer portfolio](https://next-portfolio-stark.verce
 
 ### Clone the repository
 ```bash
-git clone https://github.com/NotStark/portfolio.git
+git clone https://github.com/NotLuna/portfolio.git
 cd portfolio
 ````
 
@@ -85,8 +85,8 @@ Deployed easily via [Vercel](https://vercel.com/) (recommended).
 | Platform     | Link                                                             |
 | ------------ | ---------------------------------------------------------------- |
 | 💬 Telegram  | [https://t.me/EternalVortex](https://t.me/EternalVortex)      
-| 🐦 Twitter   | [https://twitter.com/NotStark101](https://twitter.com/NotStark101) |         |
-| 💻 Discord   | `_notstark`                                            |
+| 🐦 Twitter   | [https://twitter.com/NotLuna101](https://twitter.com/NotLuna101) |         |
+| 💻 Discord   | `_notluna`                                            |
               
 ---
 
